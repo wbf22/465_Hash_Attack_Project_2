@@ -9,6 +9,7 @@ public class Tests {
 
     private Random random = new Random();
 
+    //TODO try this algorithm https://www.geeksforgeeks.org/birthday-attack-in-cryptography/
     @Test
     public void collisionImageAttack_8_10_16_24_bits() throws Exception {
 
