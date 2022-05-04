@@ -1,28 +1,28 @@
 public class DataPoint {
-    private String secret;
-    private String rand;
+    private String one;
+    private String two;
     int numIterationsUntilMatch;
 
     public DataPoint(String secret, String rand, int numIterationsUntilMatch) {
-        this.secret = secret;
-        this.rand = rand;
+        this.one = secret;
+        this.two = rand;
         this.numIterationsUntilMatch = numIterationsUntilMatch;
     }
 
-    public String getSecret() {
-        return secret;
+    public String getOne() {
+        return one;
     }
 
-    public void setSecret(String secret) {
-        this.secret = secret;
+    public void setOne(String one) {
+        this.one = one;
     }
 
-    public String getRand() {
-        return rand;
+    public String getTwo() {
+        return two;
     }
 
-    public void setRand(String rand) {
-        this.rand = rand;
+    public void setTwo(String two) {
+        this.two = two;
     }
 
     public int getNumIterationsUntilMatch() {
@@ -36,8 +36,8 @@ public class DataPoint {
     @Override
     public String toString() {
         return "DataPoint{" +
-                "secret='" + secret + '\'' +
-                ", rand='" + rand + '\'' +
+                "secret='" + one + '\'' +
+                ", rand='" + two + '\'' +
                 ", numIterationsUntilMatch=" + numIterationsUntilMatch +
                 '}';
     }

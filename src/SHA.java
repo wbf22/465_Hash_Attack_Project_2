@@ -5,22 +5,19 @@ import java.util.Arrays;
 
 public class SHA {
 
-    public static byte[] encrypt(String x, int numBytes) throws Exception {
+    public static byte[] encrypt(String x, int numBits) throws Exception {
         MessageDigest d = MessageDigest.getInstance("SHA-1");
         d.reset();
-        byte[] xBytes = Arrays.copyOfRange(x.getBytes(StandardCharsets.UTF_8), 0, numBytes);
+        byte[] xBytes = x.getBytes(StandardCharsets.UTF_8);
         d.update(xBytes);
-        return d.digest();
-
-//        // Convert byte array into signum representation
-//        BigInteger no = new BigInteger(1, messageDigest);
-//
-//        // Convert message digest into hex value
-//        String hashtext = no.toString(16);
-//
-//        //convert to binary and truncate to numbits
-//        String binary = asBits(hashtext);
-//        return binary.substring(32, 32 + numbits);
+        byte[] truncated = Arrays.copyOfRange(d.digest(), 0, (int) Math.ceil(numBits / 8.0));
+        if (numBits % 8 != 0) {
+            int extraBits = (int) Math.ceil(numBits / 8.0) * 8 - numBits;
+            for (int i = 0; i < extraBits; i++) {
+                truncated[truncated.length - 1] &= ~(1 << i);
+            }
+        }
+        return truncated;
     }
 
 
@@ -122,9 +119,8 @@ public class SHA {
     }
 
     public static String getBytesInHex(byte[] bytes) {
-        byte[] t = transpose(bytes);
         StringBuilder bytesAsBinary = new StringBuilder();
-        for (byte b : t) {
+        for (byte b : bytes) {
             bytesAsBinary.append(asBits(b));
         }
 

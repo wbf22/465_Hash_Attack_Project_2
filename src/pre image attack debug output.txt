@@ -1,0 +1,486 @@
+C:\Users\brand\.jdks\openjdk-15.0.1\bin\java.exe -ea -Didea.test.cyclic.buffer.size=1048576 "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.3\lib\idea_rt.jar=50934:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.3\bin" -Dfile.encoding=UTF-8 -classpath "C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.3\lib\idea_rt.jar;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.3\plugins\junit\lib\junit5-rt.jar;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.3\plugins\junit\lib\junit-rt.jar;C:\Users\brand\IdeaProjects\465 Hash Attack Project 2\out\production\465 Hash Attack Project 2;C:\Users\brand\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\brand\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar" com.intellij.rt.junit.JUnitStarter -ideVersion5 -junit4 Tests,preImageAttack_8_10_16_24_bits
+******Pre Image Attack******
+Secret Strings:
+BrqkgCTFUBM8nGT[dYA:g7bgluKK9Wko
+Vik`4f\WHE:S2m8]l;9L22EwZlkcBT1O
+Es\un`K5U0=3GYK]I0Un2x8Jixc;WMCE
+MS]N=vLufWJ;h2L2Loo8OTy^ZA4lru;d
+fA]e^t^MfDMFixf=Zt[5hCe_E[Z;nuB_
+YdfGA_sRO]2TSFnvHFCC4\Xkx`a<WOuw
+jR9vh`0cf`dh2>;utq[RI2SSbpvu_>F^
+?KnJEN57j6AahZ:hu<kLQ5;[T2xh:1Op
+oh_6[8f<D5UF]5109=nhXZbcy4;[T?1L
+wKS0`ZK@a\:oTglmuU<^]^S<Yx7EZIc8
+J[TFi=NIVlxJIA^3CE;^YKNOWhAe`vs6
+UUaOV:A8\<Qq;qaSFK4QL^ESatL=m=Kj
+3Bp?1BCEH3238y4`HoJad32DJ;4WA08m
+syS<yh;xO?9HH9X4LdK3PvQylq=if4M0
+oXs[v3LlB]@pBvQVB2KGG\f1Lx0u3l1R
+u`A@uyFvrkcBbPbO=cbeAdNvAhGl\TP=
+R79I>YqiS8O2=`epFC_IcRD;j]FB4[h2
+vikkUppF`neJC]L:^b3y0kaEnFt71oVT
+Cr<bR=[]A`y?EbdAV2F<>4W;HYQndxko
+U\@t6UeQ9\\[c5Fgoc2IjxNE1K4QOi5X
+[bTe=H_Q>o\h9GguXLRL:6tcJu8N2Kd6
+9\jtbgmqWNkMS_oHgo=v\y48:0B^Sdr0
+eDrw0wpO9vdJ;p^5`DYb5Y50;[S3`L=8
+f=mVeO\:cQbO5qRC@n@eSaL=P2T[WYMH
+[PTRMh8B<:Q41k52YN0k_GBeKDqER\eV
+5eiEJLP]oAetAGCe]xrNa7=]W1hA;TLS
+S?:E8H3MSNStY3]K9sgJskgn6mn_>ooA
+Lt>0[G4rOK99NF=R3_5jUe8]]E1T>uVF
+5DC9il1bN;M7;C\7:xR:ok9\^B]fh^=a
+Q=2YJJ3358T9>2AsW5M4S@MZcDjgtCN3
+u@=:VOP]__7v0JZlUJy18cSBUBnv]14a
+7q6\U62<o?dVA7_m[@?3Hlc?xd5SA@v3
+SRns1qx6<QQYhsME@J0:dOe1FEjNR8mh
+XUaIA6ceblviM0[fE1]qJm5f0c;Kanm5
+lXbUGK\1^4VnQPFe9>rn:jgLM[@s@l:f
+8DB1BnCseRF]:lBE7]Ny5moMPPSNLyv@
+3[[sl8pRT6RiF27X<M;M[Kt`xbSNQTAj
+M8mH`MkVoLJ695<]MJWNMF4N7I_rI5OG
+KF2xhVl<3T]I=`DMyb6>8AfsTRkvfGM3
+98QidFET@=ng84yV_;]ZD^?HG7d6L_e4
+\w;@f5_e1ogK<RqI7XI:]mGsop<[UD2U
+U?t]f4BPKl>ES^ZshYv:W3UWVmyoWUYn
+G9TBfw7LUZ_SwQV`^H>P>ukc_P@F_inK
+Kg360^?i8QI7dx?a2mJt\;EB83Oi[3r@
+:1bEtR:vCL_l:L<gV`OBkLW;ZxwbH_1P
+Qb01:X<XE:SXlvDOy>sJyk]`IHOIHxAP
+Xi1^>ZD[`QQ3VtCr^6T=rUMOTGY9?wD]
+v8uQvO92k:4@?s5VN4iRWO2eleGN`NH7
+mBa]p@yN>D1SlaF?\qLxGbaEl8wXSj;w
+N5FAdT58N5T83hdvWLm44ralKTVPqGg2
+
+******8 bit******
+..................................................
+******Results 8 bits******
+Data Points:
+secret=BrqkgCTFUBM8nGT[dYA:g7bgluKK9Wko rand=8PgbjZ9e2sPepgw_;@yIZe@n4iduKNRK iterations=67
+secret=Vik`4f\WHE:S2m8]l;9L22EwZlkcBT1O rand=he:K7x]CpeDc0g[L8mgGon9w_9T;8;A8 iterations=260
+secret=Es\un`K5U0=3GYK]I0Un2x8Jixc;WMCE rand=SaJoY:TOIaxkkKjVTP14T9?t:kbM4boC iterations=820
+secret=MS]N=vLufWJ;h2L2Loo8OTy^ZA4lru;d rand=ASPZFY;SjD_Z5rL?L\cZ\=>deMUBaWnj iterations=497
+secret=fA]e^t^MfDMFixf=Zt[5hCe_E[Z;nuB_ rand=Lv`490HU^0p2fIW<>tZK[qLx=>Iob>Ew iterations=203
+secret=YdfGA_sRO]2TSFnvHFCC4\Xkx`a<WOuw rand=dN_nmQe@1E8GuyOQsK847=CHXusoZt2p iterations=34
+secret=jR9vh`0cf`dh2>;utq[RI2SSbpvu_>F^ rand=iK3o\_v_aN6PgY7^IYh_Qah<:JKehw7V iterations=73
+secret=?KnJEN57j6AahZ:hu<kLQ5;[T2xh:1Op rand=G@Kbskcb;IN;KnXF8@koDk5O6gBF3C9O iterations=251
+secret=oh_6[8f<D5UF]5109=nhXZbcy4;[T?1L rand=VZaDSoLtWBvu9^drcJeekQhhSFwBhQlc iterations=127
+secret=wKS0`ZK@a\:oTglmuU<^]^S<Yx7EZIc8 rand=SeYwwRaS>E=<eCk;9N7aO9wr\Z7LB87g iterations=89
+secret=J[TFi=NIVlxJIA^3CE;^YKNOWhAe`vs6 rand=4PtCEVbrqp@axoBP;D8bBli=CrmFaMBP iterations=177
+secret=UUaOV:A8\<Qq;qaSFK4QL^ESatL=m=Kj rand=J3qPbe:m7FIM@CR:ycAI\csZ>r3lyVnX iterations=315
+secret=3Bp?1BCEH3238y4`HoJad32DJ;4WA08m rand=kFO5[VNEJs;hVki8nLfUIRGM\yS?@<P7 iterations=296
+secret=syS<yh;xO?9HH9X4LdK3PvQylq=if4M0 rand=;26fAs5YK>_XegcF=t^NdckQ=0[PR62Q iterations=21
+secret=oXs[v3LlB]@pBvQVB2KGG\f1Lx0u3l1R rand=aKQ`TiscfKuG:422yCwsRnEf=y1<f2WH iterations=146
+secret=u`A@uyFvrkcBbPbO=cbeAdNvAhGl\TP= rand=_bkbu_WDl45JxZh6[rThxFLXdIXmpvwK iterations=76
+secret=R79I>YqiS8O2=`epFC_IcRD;j]FB4[h2 rand=o`av5FhQQIF[Gr`mPZdU7U\3xlg]ZwhM iterations=434
+secret=vikkUppF`neJC]L:^b3y0kaEnFt71oVT rand=t3RHr`RTdC[`<?qmywg1\wJttp?\HoP0 iterations=76
+secret=Cr<bR=[]A`y?EbdAV2F<>4W;HYQndxko rand=jP7568]=dsopbNq]YMPpfom5o`@V^_6u iterations=364
+secret=U\@t6UeQ9\\[c5Fgoc2IjxNE1K4QOi5X rand=Ah[D@a2Tftcjg3yJadUL>V4DorJ1aDbG iterations=217
+secret=[bTe=H_Q>o\h9GguXLRL:6tcJu8N2Kd6 rand=C;DvvFM8KL8<Yg8CXu<cTNaPw]XPUZJo iterations=195
+secret=9\jtbgmqWNkMS_oHgo=v\y48:0B^Sdr0 rand=<M8<[O\M^aZOXx:y0uGWqBFYEbr_ICg1 iterations=30
+secret=eDrw0wpO9vdJ;p^5`DYb5Y50;[S3`L=8 rand=7aZ1V[Cl;BFaeSFVEm]qbWvHcia6IHQw iterations=694
+secret=f=mVeO\:cQbO5qRC@n@eSaL=P2T[WYMH rand=Ew`_Qw>I`RgvcjvkwO30xaT6_^HlT2V< iterations=141
+secret=[PTRMh8B<:Q41k52YN0k_GBeKDqER\eV rand=RpbCPpDyv9OyR9`79VYys=X9l6U16lt9 iterations=428
+secret=5eiEJLP]oAetAGCe]xrNa7=]W1hA;TLS rand=nY?4Q8uZ<i^XtCv8clduwwr]ey[R=2c6 iterations=70
+secret=S?:E8H3MSNStY3]K9sgJskgn6mn_>ooA rand=BCy5ipT?I^q\AeV3J<r;9E<my1bZe2Bg iterations=460
+secret=Lt>0[G4rOK99NF=R3_5jUe8]]E1T>uVF rand=vBd_x=7K6l\8kwn7wmuod\qheO1:Q58e iterations=185
+secret=5DC9il1bN;M7;C\7:xR:ok9\^B]fh^=a rand=[TO]p]0Ee\McpcGrKYki@gJK3U?01qyf iterations=484
+secret=Q=2YJJ3358T9>2AsW5M4S@MZcDjgtCN3 rand=DFH?uP1B6;_g24yBN9JwLHObwm6Au=hJ iterations=254
+secret=u@=:VOP]__7v0JZlUJy18cSBUBnv]14a rand=[euLCqWDSesS7q9rp[i@v0TV4`_dosAh iterations=79
+secret=7q6\U62<o?dVA7_m[@?3Hlc?xd5SA@v3 rand=qZ`56dFhqJOVTtBIAt]0cQQhCX?q@duZ iterations=625
+secret=SRns1qx6<QQYhsME@J0:dOe1FEjNR8mh rand=pEvMhr7F@Wf`wL0tWj]8fFQZ=HVDgQk0 iterations=4
+secret=XUaIA6ceblviM0[fE1]qJm5f0c;Kanm5 rand=>jDSJYomQTIQOFXRheF4Daf_1Ao8b>xg iterations=77
+secret=lXbUGK\1^4VnQPFe9>rn:jgLM[@s@l:f rand=1Nn]X_:S>SGDRj<sq3H^qom5Y<5rOiif iterations=404
+secret=8DB1BnCseRF]:lBE7]Ny5moMPPSNLyv@ rand=Y^Y[?Nw\vBBfrJ3HGtn5NtKkyB54WIut iterations=29
+secret=3[[sl8pRT6RiF27X<M;M[Kt`xbSNQTAj rand=nkqtEYsAs_lI3A`iOdQbL9eCVTJ1;gRo iterations=630
+secret=M8mH`MkVoLJ695<]MJWNMF4N7I_rI5OG rand=bn7uGUpqMroG?MdnoEepPI4unDrk4AMv iterations=72
+secret=KF2xhVl<3T]I=`DMyb6>8AfsTRkvfGM3 rand=3A@@pvM?Ah<;ajt48]DbdJktZ<Xw9XQX iterations=68
+secret=98QidFET@=ng84yV_;]ZD^?HG7d6L_e4 rand=1EZCj9A:yvmJU6Mj6`eLRE9hudli6dpn iterations=816
+secret=\w;@f5_e1ogK<RqI7XI:]mGsop<[UD2U rand=RSOLM6jknZUM9bowUdyPr<bDhuY1>NtQ iterations=140
+secret=U?t]f4BPKl>ES^ZshYv:W3UWVmyoWUYn rand=2Qo=h7UwSvdHY<xQm@gnk4suHHLC]XiE iterations=113
+secret=G9TBfw7LUZ_SwQV`^H>P>ukc_P@F_inK rand=Q0L??Xdjq;4x\tE>MWT\<=6PZ?XKY1;1 iterations=314
+secret=Kg360^?i8QI7dx?a2mJt\;EB83Oi[3r@ rand=NLH[dewUBxFJJJw;Kg5k`91ksG[^iXLk iterations=863
+secret=:1bEtR:vCL_l:L<gV`OBkLW;ZxwbH_1P rand=0fd@79xC[fvb;^\D=;HWK3CrweLfX]Qs iterations=277
+secret=Qb01:X<XE:SXlvDOy>sJyk]`IHOIHxAP rand=6JOtCSJ;oj]]J>aP^\Go13>jIFeI[h7t iterations=499
+secret=Xi1^>ZD[`QQ3VtCr^6T=rUMOTGY9?wD] rand=PuubchkyX;LuI<XG^[DZ3g5t3n]@`pq0 iterations=63
+secret=v8uQvO92k:4@?s5VN4iRWO2eleGN`NH7 rand=7JsebSYEWC`hYR9JEg3g8sG\NrxsV]h< iterations=232
+secret=mBa]p@yN>D1SlaF?\qLxGbaEl8wXSj;w rand=DjcHXfp8P4n6S0Z6]C`yXq\SC@qFN7uD iterations=27
+secret=N5FAdT58N5T83hdvWLm44ralKTVPqGg2 rand=Ue\Q_fHh1mPhRKBD7mt6fY=dL@kQ91dl iterations=49
+# of iterations until match
+67
+260
+820
+497
+203
+34
+73
+251
+127
+89
+177
+315
+296
+21
+146
+76
+434
+76
+364
+217
+195
+30
+694
+141
+428
+70
+460
+185
+484
+254
+79
+625
+4
+77
+404
+29
+630
+72
+68
+816
+140
+113
+314
+863
+277
+499
+63
+232
+27
+49
+
+******10 bit******
+..................................................
+******Results 10 bits******
+Data Points:
+secret=BrqkgCTFUBM8nGT[dYA:g7bgluKK9Wko rand=wx@U<JHoul\p:D<lgPQL<o<cD5QTuoeD iterations=265
+secret=Vik`4f\WHE:S2m8]l;9L22EwZlkcBT1O rand=tNg_8uIJuiXvYht5vJ1CPgjrNh?R1w06 iterations=222
+secret=Es\un`K5U0=3GYK]I0Un2x8Jixc;WMCE rand=u07ETtCveS@Aq\MdRx5<bm?2K\g^cGWg iterations=388
+secret=MS]N=vLufWJ;h2L2Loo8OTy^ZA4lru;d rand=;i4cmPF=qF6ZWimcLP;0kY`??CRP1?c9 iterations=3503
+secret=fA]e^t^MfDMFixf=Zt[5hCe_E[Z;nuB_ rand=g::O3l\Fa9sq5?gdxUt5qWyGPQPq29Xq iterations=173
+secret=YdfGA_sRO]2TSFnvHFCC4\Xkx`a<WOuw rand=HjeWDW^7ZyZlHGNk]uE;o8;<tNNsEaAQ iterations=642
+secret=jR9vh`0cf`dh2>;utq[RI2SSbpvu_>F^ rand=_TnEZt?T\V0MLX]xoxpgnBsmg9^8V^AJ iterations=1003
+secret=?KnJEN57j6AahZ:hu<kLQ5;[T2xh:1Op rand=1]aeX?a@WtVYBobAkaulYxXoZgTu5@IZ iterations=1286
+secret=oh_6[8f<D5UF]5109=nhXZbcy4;[T?1L rand=:RNxdPtkWEvYTe?eZPQ]GLpA:lSAg7DV iterations=2487
+secret=wKS0`ZK@a\:oTglmuU<^]^S<Yx7EZIc8 rand=76F[7_d@bBK[mo?F2GZn^JbFgD2iww1n iterations=961
+secret=J[TFi=NIVlxJIA^3CE;^YKNOWhAe`vs6 rand=tQC3]RT`1tp=uWjAVlW=bMXVf2kvDsNF iterations=1327
+secret=UUaOV:A8\<Qq;qaSFK4QL^ESatL=m=Kj rand=YV1YZi7ev^a5vY9LuBBMRmJH1qYISRq= iterations=437
+secret=3Bp?1BCEH3238y4`HoJad32DJ;4WA08m rand=GyKDNy9\UFePNdyDx`80[P\y4cwGZ<QX iterations=974
+secret=syS<yh;xO?9HH9X4LdK3PvQylq=if4M0 rand=JTL61iAkU^[A[\DSqEvCrgwZU5dGpvB3 iterations=369
+secret=oXs[v3LlB]@pBvQVB2KGG\f1Lx0u3l1R rand=^i@g`iyBZRn5rDkkx6qgy58xXJ6u:6lp iterations=645
+secret=u`A@uyFvrkcBbPbO=cbeAdNvAhGl\TP= rand=?VsL`TnckV:ILh64CyNL@yY:iUngO=H8 iterations=566
+secret=R79I>YqiS8O2=`epFC_IcRD;j]FB4[h2 rand=3`^E6r7N]tmcC6@;7A]e;IZi^HXs\]C[ iterations=3025
+secret=vikkUppF`neJC]L:^b3y0kaEnFt71oVT rand=w?Y8wb0HDu82LM>k8hi7U\8B<NBpJxa` iterations=1088
+secret=Cr<bR=[]A`y?EbdAV2F<>4W;HYQndxko rand=;:W4ICO=GXx1idT@VdbIx<K@g:=dFJ=j iterations=1355
+secret=U\@t6UeQ9\\[c5Fgoc2IjxNE1K4QOi5X rand=u<X>3y=HHGEaah7JaXL8eG?d2OY3<dN4 iterations=71
+secret=[bTe=H_Q>o\h9GguXLRL:6tcJu8N2Kd6 rand=pg3Q\RX9X=WFYkBJbeQu6Q@PM`Ky69qD iterations=1661
+secret=9\jtbgmqWNkMS_oHgo=v\y48:0B^Sdr0 rand=I16uOj5U97LW^fdZ<ONpNJEt<6i];id5 iterations=263
+secret=eDrw0wpO9vdJ;p^5`DYb5Y50;[S3`L=8 rand=q;md^u[Bomea\osfH<lQjRJAtk`8:nvL iterations=191
+secret=f=mVeO\:cQbO5qRC@n@eSaL=P2T[WYMH rand=Dqw@rl9>ZRYalfUB9yHV^D1B\SJ\DCLg iterations=90
+secret=[PTRMh8B<:Q41k52YN0k_GBeKDqER\eV rand=ClOoIr9O<P^e;[jHg2>C8OWCvk?p1BNE iterations=640
+secret=5eiEJLP]oAetAGCe]xrNa7=]W1hA;TLS rand=;2];k0kDeD@d6r>]EIK06=sF_hlpATMk iterations=905
+secret=S?:E8H3MSNStY3]K9sgJskgn6mn_>ooA rand=TmkGQMbPS1jcYC5]@=fYPQIud<B?=TmJ iterations=239
+secret=Lt>0[G4rOK99NF=R3_5jUe8]]E1T>uVF rand=FSh?OubHUTWHo5@l;:<Kd^:DsUQUaY]P iterations=2041
+secret=5DC9il1bN;M7;C\7:xR:ok9\^B]fh^=a rand=[\:cBYDO<^A?wXV1qHo761@QGySIFMff iterations=30
+secret=Q=2YJJ3358T9>2AsW5M4S@MZcDjgtCN3 rand=KqwPk@PF]sj@j_B1l;8fnSBy?d37lBMv iterations=3666
+secret=u@=:VOP]__7v0JZlUJy18cSBUBnv]14a rand=KJx=RO^lyl_qrvjrr@4jb\4mh]=TnlJd iterations=100
+secret=7q6\U62<o?dVA7_m[@?3Hlc?xd5SA@v3 rand=HdX<[l83JWMlm?gx3Tr2uP9\@imLxhCE iterations=594
+secret=SRns1qx6<QQYhsME@J0:dOe1FEjNR8mh rand=GY=x\ML^;yjH=DKr8bH8]L801j=0yh4= iterations=688
+secret=XUaIA6ceblviM0[fE1]qJm5f0c;Kanm5 rand=W?XkAqHsgvFd3\jePxiARS^TTBn4UFI] iterations=532
+secret=lXbUGK\1^4VnQPFe9>rn:jgLM[@s@l:f rand=9DeLPnZWPXs=DK7A;WVT;27OuO9wX553 iterations=1291
+secret=8DB1BnCseRF]:lBE7]Ny5moMPPSNLyv@ rand=`snfRWDG[NB>ESO=4rEdBF<6lmm@bU_n iterations=841
+secret=3[[sl8pRT6RiF27X<M;M[Kt`xbSNQTAj rand=NSEjr>p;\dW_\P`tbCh_25;X@dBaQ\0f iterations=348
+secret=M8mH`MkVoLJ695<]MJWNMF4N7I_rI5OG rand=bJOjk<e9;A:prMXJ:3dgcE1nCU]d^e7r iterations=3532
+secret=KF2xhVl<3T]I=`DMyb6>8AfsTRkvfGM3 rand=WQd2OlSsDwm_Z3Q?VSIY5nXGTgykBINs iterations=1386
+secret=98QidFET@=ng84yV_;]ZD^?HG7d6L_e4 rand=@ZgleW?m;X]<h<<KgK=b@sEjaoYgZ:_J iterations=824
+secret=\w;@f5_e1ogK<RqI7XI:]mGsop<[UD2U rand=Tpkr2Xrh5x[]`6rupS0XjyymCVgsa]E: iterations=2917
+secret=U?t]f4BPKl>ES^ZshYv:W3UWVmyoWUYn rand=CEabqNvo:qlcL\:2t1?pA^UJlIvnnUSt iterations=867
+secret=G9TBfw7LUZ_SwQV`^H>P>ukc_P@F_inK rand=t[bdfNvQ@fD4\?@nPk9ukBVr<O@]K^?d iterations=661
+secret=Kg360^?i8QI7dx?a2mJt\;EB83Oi[3r@ rand=\LrPXvj;[mMPp5EA3^8>AV?>:N6kNbJ^ iterations=17
+secret=:1bEtR:vCL_l:L<gV`OBkLW;ZxwbH_1P rand=>ME9on9^^KQIfIegrrIekSe6ynGSYl1U iterations=1534
+secret=Qb01:X<XE:SXlvDOy>sJyk]`IHOIHxAP rand=Ab^p11gbaLI=^V_o1uBrcK=ubKWW`9uG iterations=1249
+secret=Xi1^>ZD[`QQ3VtCr^6T=rUMOTGY9?wD] rand=<OhOOywdF<5\BfGI=YdCdOersdi7q9HQ iterations=201
+secret=v8uQvO92k:4@?s5VN4iRWO2eleGN`NH7 rand=mhimr?<y>lx4yhB<9[Y\@?67_h3bycST iterations=1917
+secret=mBa]p@yN>D1SlaF?\qLxGbaEl8wXSj;w rand=ut^YUO@EV=rV5@iiI>TaT1l8jYDh6Ljc iterations=385
+secret=N5FAdT58N5T83hdvWLm44ralKTVPqGg2 rand=Wa9E_csC8Ild=V757X`tBfSg8B=P>iRs iterations=539
+# of iterations until match
+265
+222
+388
+3503
+173
+642
+1003
+1286
+2487
+961
+1327
+437
+974
+369
+645
+566
+3025
+1088
+1355
+71
+1661
+263
+191
+90
+640
+905
+239
+2041
+30
+3666
+100
+594
+688
+532
+1291
+841
+348
+3532
+1386
+824
+2917
+867
+661
+17
+1534
+1249
+201
+1917
+385
+539
+
+******16 bit******
+..................................................
+******Results 16 bits******
+Data Points:
+secret=BrqkgCTFUBM8nGT[dYA:g7bgluKK9Wko rand=fAd3R<S=p@:^w\`Urhu3s9QpTDk=Cb`< iterations=110855
+secret=Vik`4f\WHE:S2m8]l;9L22EwZlkcBT1O rand=^FhE6k2^a;_OAIa=@eRcyG;^SHDCnmoy iterations=49681
+secret=Es\un`K5U0=3GYK]I0Un2x8Jixc;WMCE rand=1I_mJu>N^2Yv>e5uI5HM\<;:cs\?CCg4 iterations=83312
+secret=MS]N=vLufWJ;h2L2Loo8OTy^ZA4lru;d rand=ktF[o;Vreg^Dn_clI`wege0vKacSEj6O iterations=8472
+secret=fA]e^t^MfDMFixf=Zt[5hCe_E[Z;nuB_ rand=KEX_=G6_^RydCADG5B;lB`ytU];`uNcb iterations=2850
+secret=YdfGA_sRO]2TSFnvHFCC4\Xkx`a<WOuw rand=o[mnaS`@u0iECaIU@QOuxci>;^bauKrJ iterations=313628
+secret=jR9vh`0cf`dh2>;utq[RI2SSbpvu_>F^ rand=mmiVV6HbJ6E@Hym[u5`mNN?Lq\a6gaNI iterations=6986
+secret=?KnJEN57j6AahZ:hu<kLQ5;[T2xh:1Op rand=;LcSQJkBHjDn^i5a;d7ysxj7OM?y?Rq< iterations=20423
+secret=oh_6[8f<D5UF]5109=nhXZbcy4;[T?1L rand=e:ZV7ndyh<;ljB0lhA1P^n;v8;;=0u2X iterations=62946
+secret=wKS0`ZK@a\:oTglmuU<^]^S<Yx7EZIc8 rand=wmLSZm@9iGQdfY5LcSuxAU:]c_h=5gio iterations=35732
+secret=J[TFi=NIVlxJIA^3CE;^YKNOWhAe`vs6 rand=kmPUQEIH^e^;>C@XOcx^7chB[oeRfq_= iterations=88912
+secret=UUaOV:A8\<Qq;qaSFK4QL^ESatL=m=Kj rand=Huxbg;iji`vNemq[k:YDsMUGOso_?G[D iterations=11244
+secret=3Bp?1BCEH3238y4`HoJad32DJ;4WA08m rand=klC>1s8B6NNSjfB80\ZR0q;NPuyW7K[U iterations=6220
+secret=syS<yh;xO?9HH9X4LdK3PvQylq=if4M0 rand=<7`w6RYhy8]m2Ici><=TL8Y[5RFJ>H1i iterations=433882
+secret=oXs[v3LlB]@pBvQVB2KGG\f1Lx0u3l1R rand=PVelB^l@0j4ovpVP[am:sn9swvMtLxiV iterations=102231
+secret=u`A@uyFvrkcBbPbO=cbeAdNvAhGl\TP= rand=A[U[ZHg];pCsDD0Sm<Lg3R=?gL0QOTwo iterations=80312
+secret=R79I>YqiS8O2=`epFC_IcRD;j]FB4[h2 rand=Bs;tcjr5InN<SlMc]f0vhBL>4S5ex1FW iterations=15761
+secret=vikkUppF`neJC]L:^b3y0kaEnFt71oVT rand=DC:muA\xVnREI]wsvB?Evwlv0IuFKVr5 iterations=146885
+secret=Cr<bR=[]A`y?EbdAV2F<>4W;HYQndxko rand=pNTf<Vrty`Q`[3StI7BOglEL71QeDIRt iterations=128429
+secret=U\@t6UeQ9\\[c5Fgoc2IjxNE1K4QOi5X rand=_k?_3v8PqPmQX]^ODS]fTXKcG1sHa[aJ iterations=29153
+secret=[bTe=H_Q>o\h9GguXLRL:6tcJu8N2Kd6 rand=auZu0JpVYDEk08h;dT;RrKX?a8V8DSNv iterations=22904
+secret=9\jtbgmqWNkMS_oHgo=v\y48:0B^Sdr0 rand=8wr2EC1@SAJwVM=FSnhWTo0x_G0llmq5 iterations=71282
+secret=eDrw0wpO9vdJ;p^5`DYb5Y50;[S3`L=8 rand=2Ob3_DkQx?jS8LvhOTh=_g>54e>F`BAo iterations=125542
+secret=f=mVeO\:cQbO5qRC@n@eSaL=P2T[WYMH rand=JP9np=Gkh=jJpwgt:wS`?=yGYe63lZ]g iterations=178529
+secret=[PTRMh8B<:Q41k52YN0k_GBeKDqER\eV rand=QDAY;6`DZN9jj]I8j;JZ4gmUntXGEfu` iterations=50247
+secret=5eiEJLP]oAetAGCe]xrNa7=]W1hA;TLS rand=6u;?>>q5b@v^hir>@74g=6[j=l:dWViK iterations=33202
+secret=S?:E8H3MSNStY3]K9sgJskgn6mn_>ooA rand=]`^?pE;EXDMLA7[ccLmxTp]QYC\LR2F7 iterations=48153
+secret=Lt>0[G4rOK99NF=R3_5jUe8]]E1T>uVF rand=GDLBbcrxJrYwRQVFp_1Ue9=Fln?AxJaN iterations=43844
+secret=5DC9il1bN;M7;C\7:xR:ok9\^B]fh^=a rand=4unO]Ty5g\1PA;weG0>n1h]??rS?ewpc iterations=23133
+secret=Q=2YJJ3358T9>2AsW5M4S@MZcDjgtCN3 rand=]38l@`kXnBr4p0jguFaKdxeH[3?uG]uN iterations=250382
+secret=u@=:VOP]__7v0JZlUJy18cSBUBnv]14a rand=3p?_]cOrK=xIH:x]rsVyZBqHew;Trtn: iterations=75502
+secret=7q6\U62<o?dVA7_m[@?3Hlc?xd5SA@v3 rand=:fYn^fq?ckBlRJrIP<au8ykNKSyloHJy iterations=17417
+secret=SRns1qx6<QQYhsME@J0:dOe1FEjNR8mh rand=JLVq^tP0N=Eh3\X>cawt<][IOjg@tAEV iterations=31809
+secret=XUaIA6ceblviM0[fE1]qJm5f0c;Kanm5 rand=j\3_:e]fIHDBj1_\MOuKlY?U@`3MVn:h iterations=103283
+secret=lXbUGK\1^4VnQPFe9>rn:jgLM[@s@l:f rand=eD?ScOSeF2KN3HeUC\D<d]OZ[^LZ3Mt3 iterations=64316
+secret=8DB1BnCseRF]:lBE7]Ny5moMPPSNLyv@ rand=laKf`GVuM[Hr?4jtoaKtHN8^;BU08D>V iterations=114767
+secret=3[[sl8pRT6RiF27X<M;M[Kt`xbSNQTAj rand=LfdXZWCr9@bHAnN9x]k?1`2eW3;o^eUs iterations=99412
+secret=M8mH`MkVoLJ695<]MJWNMF4N7I_rI5OG rand=f^wo:Ooqqu6MUmm3OYo[wKpeNbyHUey8 iterations=94509
+secret=KF2xhVl<3T]I=`DMyb6>8AfsTRkvfGM3 rand=SUcfrJqhw0i;]sSqZTWL`j<`lIy3woNP iterations=24069
+secret=98QidFET@=ng84yV_;]ZD^?HG7d6L_e4 rand=HWgCDx\M5H@<HKMN?h`MGX06BTUlDSu; iterations=46990
+secret=\w;@f5_e1ogK<RqI7XI:]mGsop<[UD2U rand=W3ruj>twP;fSOSo7i`t8ngbNIWD6]][i iterations=46709
+secret=U?t]f4BPKl>ES^ZshYv:W3UWVmyoWUYn rand=`cb\AXsB[GTVld1aZRC6y7P<f?ctdFak iterations=18524
+secret=G9TBfw7LUZ_SwQV`^H>P>ukc_P@F_inK rand=sFQ<l4CIZ_ZAWU^UK]7rb6V3One`bYta iterations=4213
+secret=Kg360^?i8QI7dx?a2mJt\;EB83Oi[3r@ rand=Zd^mh=2H:gLfRW4W\O1L1\wtQMLGFi6P iterations=39855
+secret=:1bEtR:vCL_l:L<gV`OBkLW;ZxwbH_1P rand=2rRXVyA]Pd=R\Y]5W0gIhvE1X5X7iVxS iterations=1344
+secret=Qb01:X<XE:SXlvDOy>sJyk]`IHOIHxAP rand=^n>6\dfu5a_c>_:;QWwN0LA@Bq`@V@Uo iterations=81779
+secret=Xi1^>ZD[`QQ3VtCr^6T=rUMOTGY9?wD] rand=\U^rbL[rtPtGhG[dPxutSJ^VRN6x=^02 iterations=62316
+secret=v8uQvO92k:4@?s5VN4iRWO2eleGN`NH7 rand=jXaiooN2>^c6_=[;ie]Av<U5SH4^fGiX iterations=82459
+secret=mBa]p@yN>D1SlaF?\qLxGbaEl8wXSj;w rand=2m9aJe0VWZD6Wubyoe0?hotxu[HJgW9f iterations=462
+secret=N5FAdT58N5T83hdvWLm44ralKTVPqGg2 rand=xCF_aKFY>mj4m@Wl6B=nnHe5Mv8PoWSi iterations=56077
+# of iterations until match
+110855
+49681
+83312
+8472
+2850
+313628
+6986
+20423
+62946
+35732
+88912
+11244
+6220
+433882
+102231
+80312
+15761
+146885
+128429
+29153
+22904
+71282
+125542
+178529
+50247
+33202
+48153
+43844
+23133
+250382
+75502
+17417
+31809
+103283
+64316
+114767
+99412
+94509
+24069
+46990
+46709
+18524
+4213
+39855
+1344
+81779
+62316
+82459
+462
+56077
+
+******24 bit******
+..................................................
+******Results 24 bits******
+Data Points:
+secret=BrqkgCTFUBM8nGT[dYA:g7bgluKK9Wko rand=]d;N\BcObfkyj5[Q\bp>jgKWLI2b2BfX iterations=16469187
+secret=Vik`4f\WHE:S2m8]l;9L22EwZlkcBT1O rand=iypMZWYyt3>q9jiL::`AHd8_j79n0xtp iterations=9733987
+secret=Es\un`K5U0=3GYK]I0Un2x8Jixc;WMCE rand=DPZyD;5r\p5S;4LKx<huP7IIJ=orLMe] iterations=21435389
+secret=MS]N=vLufWJ;h2L2Loo8OTy^ZA4lru;d rand=MNAYNix8YWHpO8MvxeGNSn\Rr5qiR5NA iterations=1635025
+secret=fA]e^t^MfDMFixf=Zt[5hCe_E[Z;nuB_ rand=h>V7qH:hi<yf70d6Ff]>irEhKQA]dkxo iterations=124540222
+secret=YdfGA_sRO]2TSFnvHFCC4\Xkx`a<WOuw rand=CDXmbM4eL:WAh0VC\X<a;BvMWWE5D`7B iterations=18121625
+secret=jR9vh`0cf`dh2>;utq[RI2SSbpvu_>F^ rand=sQ@tMigSLNtw]?:8Z_OLVHRr2S8Au_hH iterations=9604579
+secret=?KnJEN57j6AahZ:hu<kLQ5;[T2xh:1Op rand=FO5c`V>AUdZ4J74`JFoaMN:jd>?cjF=y iterations=13545966
+secret=oh_6[8f<D5UF]5109=nhXZbcy4;[T?1L rand=vDhHP`8yR=PQi:dRjLby8XEdQ?3ko7jS iterations=6742687
+secret=wKS0`ZK@a\:oTglmuU<^]^S<Yx7EZIc8 rand=3F?EZ_m`9U]v5fx3UtxG=1rIF;lCYJVV iterations=744878
+secret=J[TFi=NIVlxJIA^3CE;^YKNOWhAe`vs6 rand=[0[stVM92JeLQ5B0ttK<>p[[ycmwRD1I iterations=6369375
+secret=UUaOV:A8\<Qq;qaSFK4QL^ESatL=m=Kj rand=i>_jGl:F3jo1[`]mnamonXfX2w503WyM iterations=4270282
+secret=3Bp?1BCEH3238y4`HoJad32DJ;4WA08m rand=<X4L0jjI>d<_K`[gAM7DN@YLFeF0AM7C iterations=2354550
+secret=syS<yh;xO?9HH9X4LdK3PvQylq=if4M0 rand=7GwXmZxaeAFqu3;8f?wC_mpEuV04KVJe iterations=10230126
+secret=oXs[v3LlB]@pBvQVB2KGG\f1Lx0u3l1R rand=aHINcouL6uqFKj=2dJ]`g<wMiSuK2C\_ iterations=11663695
+secret=u`A@uyFvrkcBbPbO=cbeAdNvAhGl\TP= rand=``bVLlyGoLYC:?UL7?QxfGS^p]DVw7?i iterations=2301015
+secret=R79I>YqiS8O2=`epFC_IcRD;j]FB4[h2 rand=04;V<`G;O?iiYNvbCkTmQXrr40hPT5sI iterations=4283210
+secret=vikkUppF`neJC]L:^b3y0kaEnFt71oVT rand=@q^]9tgM\RWXM4alxuIjuBcggpvFUlEe iterations=5285443
+secret=Cr<bR=[]A`y?EbdAV2F<>4W;HYQndxko rand=Dut[Pql1ylUOcA;uC5\oEvc?2<RASnT] iterations=2088712
+secret=U\@t6UeQ9\\[c5Fgoc2IjxNE1K4QOi5X rand=ERO6=R\q59HNcbxq_T=>w>rO0CiWkU_U iterations=10102165
+secret=[bTe=H_Q>o\h9GguXLRL:6tcJu8N2Kd6 rand=_[<e63ANp0ma9^S567s=nh^B?10eg69E iterations=51767584
+secret=9\jtbgmqWNkMS_oHgo=v\y48:0B^Sdr0 rand=BE6]Yi;2ZfGNC?KIKIqYad[nFKVOIKCn iterations=45638505
+secret=eDrw0wpO9vdJ;p^5`DYb5Y50;[S3`L=8 rand=s`[avCgOwB?\FfiZ=6lx=xe\Qy:\bZ;E iterations=50223237
+secret=f=mVeO\:cQbO5qRC@n@eSaL=P2T[WYMH rand=dhI2Ze7v=MW]fVXYFiIo;SQx=vDjfjJ3 iterations=7478934
+secret=[PTRMh8B<:Q41k52YN0k_GBeKDqER\eV rand=wNjdM^SI4hV?<8mXZb4qm9btrGPyBeX9 iterations=716023
+secret=5eiEJLP]oAetAGCe]xrNa7=]W1hA;TLS rand=ZGkbBgLy2x6\\rJIgi@GJGByrBKU;h:n iterations=19175647
+secret=S?:E8H3MSNStY3]K9sgJskgn6mn_>ooA rand=ablAwsJkDNE1Z<WpeeU0wcJ9M[t9Q@1J iterations=27420896
+secret=Lt>0[G4rOK99NF=R3_5jUe8]]E1T>uVF rand=M7<Dq^HCT@houkmF9rgpdRulwEPsok7J iterations=54381228
+secret=5DC9il1bN;M7;C\7:xR:ok9\^B]fh^=a rand=F\8an9Uo5>>x8Hs<R0Q`uVuFMB^NaOq2 iterations=4511717
+secret=Q=2YJJ3358T9>2AsW5M4S@MZcDjgtCN3 rand=voqg`]hCQxsHhv[q3j:emeYxAUP:JLKH iterations=12483018
+secret=u@=:VOP]__7v0JZlUJy18cSBUBnv]14a rand=g5;IeQw13wZy_O4Ek3aUJUk8]qIq;Ft5 iterations=2300421
+secret=7q6\U62<o?dVA7_m[@?3Hlc?xd5SA@v3 rand=]6l2D\IgD7efO<TZLwdTVW]6vXc1Q[`s iterations=8259307
+secret=SRns1qx6<QQYhsME@J0:dOe1FEjNR8mh rand=Dcj1:NJbCn4NuhK`vBp<:Lb;`e7[0HDR iterations=11779864
+secret=XUaIA6ceblviM0[fE1]qJm5f0c;Kanm5 rand=hM;5J[nqX0U:`2p]kNqQVaySQ@Uj4]e0 iterations=7608365
+secret=lXbUGK\1^4VnQPFe9>rn:jgLM[@s@l:f rand=et=6QMwHV2Z3hBJD3_<PC6mn7;?@iU@3 iterations=11233647
+secret=8DB1BnCseRF]:lBE7]Ny5moMPPSNLyv@ rand=m0qiC09?t?qy^ZjWw6M6HGxR9wYNhKRa iterations=14526321
+secret=3[[sl8pRT6RiF27X<M;M[Kt`xbSNQTAj rand=q;68MrysW:1Nfg7QGkv5Rx`[jk:[aXR_ iterations=18537349
+secret=M8mH`MkVoLJ695<]MJWNMF4N7I_rI5OG rand=O\0cYb[Pm9C==<fH7Jj_<OL[Q=t[ZCRx iterations=75421444
+secret=KF2xhVl<3T]I=`DMyb6>8AfsTRkvfGM3 rand=reoDY<eZFQ;>CYlBAENUFIq\Xfg_OYNU iterations=6132379
+secret=98QidFET@=ng84yV_;]ZD^?HG7d6L_e4 rand=V]^`N4WA<m?`RQ5cw1dxnvYrQYxMbouo iterations=51331889
+secret=\w;@f5_e1ogK<RqI7XI:]mGsop<[UD2U rand=JTJgPSdOVtP>H\G36gZ1CZ@_?mJXtE^r iterations=7866705
+secret=U?t]f4BPKl>ES^ZshYv:W3UWVmyoWUYn rand=@FA=F8nhb59oeh3hjR^ttlqeN\a=KeU? iterations=1838010
+secret=G9TBfw7LUZ_SwQV`^H>P>ukc_P@F_inK rand=a[F@VB2Jo<c1MKSYLh=Toc;dSIobOM1k iterations=10930798
+secret=Kg360^?i8QI7dx?a2mJt\;EB83Oi[3r@ rand=NvLEEZ60;gRQy1yw]JVPPrWPyOXQpdwl iterations=32387675
+secret=:1bEtR:vCL_l:L<gV`OBkLW;ZxwbH_1P rand=WvGVuyeiu12uJoF<<fNFB[f2ZVjqJd2s iterations=10366778
+secret=Qb01:X<XE:SXlvDOy>sJyk]`IHOIHxAP rand=ME=C0rd;ywk@];q;@6j;iuYy0`oyVA8x iterations=21357177
+secret=Xi1^>ZD[`QQ3VtCr^6T=rUMOTGY9?wD] rand=8\Mfv8EobE]A]FmMg4T@wXIc]B8U31CL iterations=36219706
+secret=v8uQvO92k:4@?s5VN4iRWO2eleGN`NH7 rand=Z;0f80F6faV9pre:7q2U2tBUohd8@1<j iterations=1981524
+secret=mBa]p@yN>D1SlaF?\qLxGbaEl8wXSj;w rand=wpKJ1Sec[8f;Bo38DwHZsPY9HNp_Skh4 iterations=7290592
+secret=N5FAdT58N5T83hdvWLm44ralKTVPqGg2 rand=B^3<HVAGVCR`5nwiKu;vbIGZan3l`39^ iterations=4734487
+# of iterations until match
+16469187
+9733987
+21435389
+1635025
+124540222
+18121625
+9604579
+13545966
+6742687
+744878
+6369375
+4270282
+2354550
+10230126
+11663695
+2301015
+4283210
+5285443
+2088712
+10102165
+51767584
+45638505
+50223237
+7478934
+716023
+19175647
+27420896
+54381228
+4511717
+12483018
+2300421
+8259307
+11779864
+7608365
+11233647
+14526321
+18537349
+75421444
+6132379
+51331889
+7866705
+1838010
+10930798
+32387675
+10366778
+21357177
+36219706
+1981524
+7290592
+4734487
+
+******Averages******
+8-bit 257.3
+10-bit 1018.72
+16-bit 73018.88
+24-bit 1.79484669E7
+
+
+Process finished with exit code 0
