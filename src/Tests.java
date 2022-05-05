@@ -12,7 +12,7 @@ public class Tests {
 
     //TODO try this algorithm https://www.geeksforgeeks.org/birthday-attack-in-cryptography/
     @Test
-    public void collisionImageAttack_8_10_16_24_28_bits() throws Exception {
+    public void collisionImageAttack_8_10_16_24_28_bits() {
 
 
         System.out.println("******8 bit******");
@@ -41,7 +41,7 @@ public class Tests {
     }
 
     @Test
-    public void preImageAttack_8_10_16_24_bits() throws Exception {
+    public void preImageAttack_8_10_16_24_bits() {
         List<String> stringList = getStringList(50);
 
         System.out.println("******Pre Image Attack******");
@@ -74,18 +74,13 @@ public class Tests {
     }
 
     @Test
-    public void test() throws Exception {
-//        System.out.println(SHA.getBytesInHex(SHA.encrypt("ABCDEFG", 12)));
-//        System.out.println(SHA.encrypt("ABCDEFG", 1).length);
-//        System.out.println(SHA.getBytesInHex(SHA.encrypt("ABCDEF1", 12)));
-//        System.out.println(SHA.encrypt("ABCDEF1", 1).length);
+    public void test() {
+        System.out.println("******30 bit******");
+        List<DataPoint> dataPoints = doCollisionAttack(30);
+        System.out.println();
 
-
-        System.out.println(SHA.asBitsArray(SHA.encrypt("ABCDEF1", 18)));
-//        01000001 01111110 10000000
-//        01000001 01111110 10010101
-//        4170
-//        417e
+        System.out.println("******Averages******");
+        System.out.println("30-bit " + average(dataPoints));
 
     }
 
@@ -102,9 +97,10 @@ public class Tests {
             while (one == null && two == null) {
                 List<String> strings = getStringList(oTimeConstant);
                 List<byte[]> encrypted = strings.stream().map(t -> SHA.encrypt(t, numBits)).collect(Collectors.toList());
-                cntr += oTimeConstant;
+//                cntr += oTimeConstant;
 
                 for (int o = 0; o < encrypted.size(); o++) {
+                    cntr++;
                     for(int t = 0; t < encrypted.size(); t++){
                         if (o != t && areEqualByteArrays(encrypted.get(o), encrypted.get(t))) {
                             one = strings.get(o);
