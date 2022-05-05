@@ -2,6 +2,7 @@ import org.junit.Test;
 
 import java.nio.charset.StandardCharsets;
 import java.util.*;
+import java.util.stream.Collectors;
 
 public class Tests {
 
@@ -11,7 +12,7 @@ public class Tests {
 
     //TODO try this algorithm https://www.geeksforgeeks.org/birthday-attack-in-cryptography/
     @Test
-    public void collisionImageAttack_8_10_16_24_bits() throws Exception {
+    public void collisionImageAttack_8_10_16_24_28_bits() throws Exception {
 
 
         System.out.println("******8 bit******");
@@ -26,12 +27,16 @@ public class Tests {
         System.out.println("******24 bit******");
         List<DataPoint> dataPoints24 = doCollisionAttack(24);
         System.out.println();
+        System.out.println("******28 bit******");
+        List<DataPoint> dataPoints28 = doCollisionAttack(28);
+        System.out.println();
 
         System.out.println("******Averages******");
         System.out.println("8-bit " + average(dataPoints8));
         System.out.println("10-bit " + average(dataPoints10));
         System.out.println("16-bit " + average(dataPoints16));
         System.out.println("24-bit " + average(dataPoints24));
+        System.out.println("28-bit " + average(dataPoints28));
         System.out.println();
     }
 
@@ -85,21 +90,31 @@ public class Tests {
     }
 
 
-    private List<DataPoint> doCollisionAttack(int numBits) throws Exception {
+    private List<DataPoint> doCollisionAttack(int numBits){
 
         List<DataPoint> dataPoints = new ArrayList<>();
         for (int i = 0; i < 50; i++) {
+            int oTimeConstant = (int)Math.pow(2, numBits/2);
             int cntr = 1;
-            String one = getRandomString();
-            String two = getRandomString();
+            String one = null;
+            String two = null;
 
-            while(!areEqualByteArrays(SHA.encrypt(one, numBits), SHA.encrypt(two, numBits))) {
-                one = getRandomString();
-                two = getRandomString();
-                cntr++;
+            while (one == null && two == null) {
+                List<String> strings = getStringList(oTimeConstant);
+                List<byte[]> encrypted = strings.stream().map(t -> SHA.encrypt(t, numBits)).collect(Collectors.toList());
+                cntr += oTimeConstant;
 
+                for (int o = 0; o < encrypted.size(); o++) {
+                    for(int t = 0; t < encrypted.size(); t++){
+                        if (o != t && areEqualByteArrays(encrypted.get(o), encrypted.get(t))) {
+                            one = strings.get(o);
+                            two = strings.get(t);
+                            break;
+                        }
+                    }
+                    if (one != null && two != null) break;
+                }
             }
-
             System.out.print(".");
 
             dataPoints.add(new DataPoint(one, two, cntr));
@@ -121,7 +136,7 @@ public class Tests {
         return dataPoints;
     }
 
-    private List<DataPoint> doPreImageAttack(int numBits, List<String> secretList) throws Exception {
+    private List<DataPoint> doPreImageAttack(int numBits, List<String> secretList) {
 
 
         List<DataPoint> dataPoints = new ArrayList<>();

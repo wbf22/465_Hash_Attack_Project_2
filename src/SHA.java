@@ -1,23 +1,29 @@
 import java.nio.charset.StandardCharsets;
 import java.security.MessageDigest;
+import java.security.NoSuchAlgorithmException;
 import java.util.Arrays;
 
 
 public class SHA {
 
-    public static byte[] encrypt(String x, int numBits) throws Exception {
-        MessageDigest d = MessageDigest.getInstance("SHA-1");
-        d.reset();
-        byte[] xBytes = x.getBytes(StandardCharsets.UTF_8);
-        d.update(xBytes);
-        byte[] truncated = Arrays.copyOfRange(d.digest(), 0, (int) Math.ceil(numBits / 8.0));
-        if (numBits % 8 != 0) {
-            int extraBits = (int) Math.ceil(numBits / 8.0) * 8 - numBits;
-            for (int i = 0; i < extraBits; i++) {
-                truncated[truncated.length - 1] &= ~(1 << i);
+    public static byte[] encrypt(String x, int numBits) {
+
+        try {
+            MessageDigest d = MessageDigest.getInstance("SHA-1");
+            d.reset();
+            byte[] xBytes = x.getBytes(StandardCharsets.UTF_8);
+            d.update(xBytes);
+            byte[] truncated = Arrays.copyOfRange(d.digest(), 0, (int) Math.ceil(numBits / 8.0));
+            if (numBits % 8 != 0) {
+                int extraBits = (int) Math.ceil(numBits / 8.0) * 8 - numBits;
+                for (int i = 0; i < extraBits; i++) {
+                    truncated[truncated.length - 1] &= ~(1 << i);
+                }
             }
+            return truncated;
+        } catch (NoSuchAlgorithmException e) {
+            return new byte[0];
         }
-        return truncated;
     }
 
 
