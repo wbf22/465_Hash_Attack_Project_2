@@ -75,13 +75,12 @@ public class Tests {
 
     @Test
     public void test() {
-        System.out.println("******30 bit******");
-        List<DataPoint> dataPoints = doCollisionAttack(30);
+        System.out.println("******64 bit******");
+        List<DataPoint> dataPoints = doCollisionAttack(14);
         System.out.println();
 
         System.out.println("******Averages******");
-        System.out.println("30-bit " + average(dataPoints));
-
+        System.out.println("64-bit " + average(dataPoints));
     }
 
 
@@ -157,6 +156,54 @@ public class Tests {
             System.out.println("Data Points:");
             for (DataPoint i : dataPoints) {
                 System.out.println("secret=" + i.getOne() + " rand=" + i.getTwo() + " iterations=" + i.getNumIterationsUntilMatch());
+            }
+            System.out.println("# of iterations until match");
+            for (DataPoint i : dataPoints) {
+                System.out.println(i.getNumIterationsUntilMatch());
+            }
+        }
+        return dataPoints;
+    }
+
+    private List<DataPoint> doCollisionAttack(int numBits, int iterations){
+
+        List<DataPoint> dataPoints = new ArrayList<>();
+        for (int i = 0; i < iterations; i++) {
+            int oTimeConstant = (int)Math.pow(2, numBits/2);
+            int cntr = 1;
+            String one = null;
+            String two = null;
+
+            while (one == null && two == null) {
+                List<String> strings = getStringList(oTimeConstant);
+                List<byte[]> encrypted = strings.stream().map(t -> SHA.encrypt(t, numBits)).collect(Collectors.toList());
+
+                for (int o = 0; o < encrypted.size(); o++) {
+                    cntr++;
+                    for(int t = 0; t < encrypted.size(); t++){
+                        if (o != t && areEqualByteArrays(encrypted.get(o), encrypted.get(t))) {
+                            one = strings.get(o);
+                            two = strings.get(t);
+                            break;
+                        }
+                    }
+                    if (one != null && two != null) break;
+                }
+                if (cntr % (oTimeConstant/256) == 0) {
+                    System.out.print(".");
+                }
+            }
+
+            dataPoints.add(new DataPoint(one, two, cntr));
+        }
+
+        if (DEBUG == true) {
+            System.out.println();
+            System.out.println("******Results " + numBits + " bits******");
+            System.out.println("Data Points:");
+            for (DataPoint i : dataPoints) {
+                System.out.println("one=" + i.getOne() + " two=" + i.getTwo() + " iterations=" +
+                        i.getNumIterationsUntilMatch());
             }
             System.out.println("# of iterations until match");
             for (DataPoint i : dataPoints) {
